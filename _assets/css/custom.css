@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url('fonts/LXGWWenKai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.reveal .slides section {
+    font-family: 'LXGW WenKai', sans-serif;
+    line-height: 2.5; 
+    text-align: left; 
+}
+/* custom.css */
+
+.left-bottom-text {
+  position: absolute;
+  bottom: 20px;  /* 调整这个值来设置与底部的距离 */
+  left: 20px;   /* 调整这个值来设置与左侧的距离 */
+  color: rgb(108, 108, 107);  /* 设置文字颜色为灰色 */
+  font-size: 20px;  /* 调整文字大小 */
+  z-index: -1000;  /* 确保文字在其他元素之上 */
+}

@@ -1,15 +1,47 @@
-# 目录：
+---
+title: Passive Voice
+css: "css/custom.css"
+# separator: <!--s-->
+# verticalSeparator: <!--v-->
+theme: serif
+highlightTheme: tomorrow-night-bright
+revealOptions:
+  width: 1520
+  height: 950
+  margin: 0.04
+  transition: 'convex'
+  slideNumber: true
+Reveal.initialize({ center: false });
+---
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var slides = document.querySelectorAll('.slides section');
+    slides.forEach(function(slide) {
+      var text = document.createElement('div');
+      text.className = 'left-bottom-text';
+      text.innerHTML = 'English';
+      slide.appendChild(text);
+    });
+  });
+</script>
 
-- 感官使役动词的被动语态
+# 目录：
+<br>
+<br>
+
+- 感官使役动词的被动语态  
+<br>
+<br>
+
 - 一些被动语态的固定句型
 
 ---
-# 1. 感官使役动词的被动语态  
+### 1. 感官使役动词的被动语态  
 ----
 
-## 常见动词：
+#### 常见动词：
 
-#### 感官动词：
+##### 感官动词：
 
 - **see** √
 - **hear** √
@@ -17,7 +49,7 @@
 - watch
 - observe
 
-#### 使役动词：
+##### 使役动词：
 
 - **make** √
 - let
@@ -25,7 +57,7 @@
 
 ----
 
-## 为什么要特别讲呢？
+#### 为什么要特别讲呢？
 
 - 都是用法闹的！
 - 来看两个例句：
@@ -38,7 +70,8 @@
 
 ----
 
-## 怎么还原？
+#### 怎么还原？
+
 - 把落下的【**to**】还回去！
 - 结构说明
   - 主动语态：主语 + make + 宾语 + 动词原形（do）
@@ -55,7 +88,7 @@
 - hear/see这些感官动词也是同理，我们就不多说了x
 ----
 
-## Practice
+#### Practice
 
 - **Active:** They see him play soccer.
 - **Passive:** He __________ __________ __________ __________ soccer by them.
@@ -135,14 +168,14 @@
 
 ---
 
-# 2.  一些被动语态的固定句型
+### 2.  一些被动语态的固定句型
 
 ----
 
-## 一些常见句型：
+#### 一些常见句型：
 
 - 据说..... It is said that ...
-- 据报导.. It is reported that ...
+- 据报道.. It is reported that ...
 - 据推测..... It is supposed that ...
 - 希望.... It is hoped that ...
 - 众所周知..... It is well known that ...
@@ -150,7 +183,7 @@
 - 有人建议..... It is suggested that
 
 ----
-## Example:
+#### Example:
 
 - 1. 据说他已经离开了城市。
 - It is said that he has left the city.
@@ -165,17 +198,17 @@
 
 ----
 
-## Practice:
+#### Practice:
 
 - 1. 普遍认为他是一个诚实的人。
 - 2.  有人建议我们应该提前完成工作。
 - 3.  据说这个方法很有效。
-- 4.   据报导政府将采取新措施。
-- 5.   希望这个计划会成功。
+- 4.  据报道政府将采取新措施。
+- 5.  希望这个计划会成功。
 
 ----
 
-## Answer!
+#### Answer!
 
 - 1. It is generally considered that he is an honest person.
 - 2. It is suggested that we should finish the work ahead of time.
